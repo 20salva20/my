@@ -1,0 +1,45 @@
+
+body {
+    background-color: rgb(102, 102, 102);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+    padding: 50px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(#000, 0.6), rbga(#000, 0.6));
+    background-size: cover;
+}
+
+h1 {
+    color: #000;
+}
+
+.note-form {
+    display: block;
+    flex-direction: column;
+    width: 200px;
+}
+
+.note {
+    position: absolute;
+    cursor: pointer;
+    background-image: url('./componentes/post-it-note.png');
+    background-size: cover;
+    top: 100px;
+    left: 300px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+
+    
+}
+.close{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 15px;
+    transition: transform .3s ease;
+    
+}
